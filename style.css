@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+width: 100vw;
+height: 800vh;
+background-color:black;
+align-items: center;
+justify-content: center;
+position: relative;
+
+
+}
+
+  
+
+
+.section-art{
+
+width: 100vw;
+height: 500vh;
+color: aliceblue;
+display:grid;
+align-items: center;
+justify-content: center;
+ }
+.section-one{
+
+    width: 100vw;
+    height: 500vh;
+    color: aliceblue;
+    display:grid;
+margin-top:60px ;
+justify-content: center;
+align-items: center;
+}
+
+img{
+    height: 83vh;
+    width: 45vw;
+    margin-top: 50px ;
+    border-radius: 10px;
+    padding: 7px;
+
+}
+
+
+.painting-one{
+    height: 125vh;
+    width: 85vw;
+    border: 3px solid whitesmoke;
+text-align: center;
+align-items: center;
+justify-content: center;
+box-shadow:0 0 20px 20px  rgb(0, 183, 255);
+border-radius: 10px;
+
+}
+
+
+.painting-two{
+    height: 125vh;
+    width: 85vw;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    box-shadow:0 0 20px 20px  rgb(73, 69, 44);
+    border-radius: 10px;
+}
+
+
+.painting-three{
+    height: 125vh;
+    width: 85vw;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    box-shadow:0 0 20px 20px  rgb(64, 87, 88);
+    border-radius: 10px;
+}
+
+
+.painting-four{
+    height: 125vh;
+    width: 85vw;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    box-shadow:0 0 20px 20px  rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+
+.painting-five{
+    height: 125vh;
+    width: 85vw;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    box-shadow:0 0 20px 20px  rgb(170, 160, 137);
+    border-radius: 10px;
+}
+
+
+.painting-six{
+    height: 125vh;
+    width: 85vw;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    box-shadow:0 0 20px 20px  rgb(251, 255, 0);
+    border-radius: 10px;
+}
+
+nav{
+    height:10vh;
+    width: 100vw;
+    background-color:white;
+    position:fixed;
+    top: 0%;
+}
+
+.navigation{
+justify-content: space-around;
+display: flex;
+margin: 18px 0;
+}
+
+
+.spacing{
+    margin-right: 420px;
+    font-size: 2rem;
+    margin-top:-10px ;
+}
+
+
+.name,.about-me,.FAQ{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer{
+    height:10vh;
+    width: 100vw;
+border-top: 3px solid whitesmoke;
+box-shadow: 0 0 20px 20px rgba(255, 0, 200,1);
+background-color: white;
+}
+
+
+.media{
+   
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+ a {
+    list-style-type: none;
+text-decoration: none;
+color: black;
+
+}
+
+
+p{
+    padding: 4px;
+
+}
+
+
+a:hover{
+    color: rgba(255, 0, 200,0.5);
+}
+
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+.images{
+    display: flex;
+ justify-content: center;
+}
+
+
+
+@media screen and ( max-width:480px ){
+
+    img{
+        height: 63vh;
+        width: 60vw;
+    }
+
+
+    .painting-one{
+        height: 105vh;
+    }
+
+    
+    .painting-two{
+        height: 105vh;
+    }
+
+    
+    .painting-three{
+        height: 105vh;
+    }
+
+    
+    .painting-four{
+        height: 105vh;
+    }
+
+    
+    .painting-five{
+        height: 105vh;
+    }
+
+    
+    .painting-six{
+        height: 105vh;
+    }
+
+    .spacing{
+        font-size: 2rem;
+        margin-right: 40px;
+    }
+
+
+
+}
+
+
